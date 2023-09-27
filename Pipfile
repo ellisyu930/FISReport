@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+beautifulsoup4 = "*"
+requests = "*"
+pydantic = {extras = ["dotenv", "email"], version = "*"}
+fastapi-mail = "*"
+apscheduler = "*"
+pandas = "*"
+tabula-py = "*"
+camelot-py = {version = "*", extras = ["cv"]}
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = "*"
+pydantic-settings = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.11"
